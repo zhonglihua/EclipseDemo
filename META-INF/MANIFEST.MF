@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Demo
+Bundle-SymbolicName: my.first.rcp.demo; singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: my.first.rcp.demo.Activator
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.eclipse.help;bundle-version="3.5.100",
+ org.eclipse.equinox.p2.ui;bundle-version="2.1.1",
+ org.eclipse.equinox.p2.updatesite;bundle-version="1.0.300"
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
